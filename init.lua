@@ -205,6 +205,8 @@ vim.keymap.set('n', 'Q', 'nop')
 vim.keymap.set('n', '<leader>w', ':w<CR>')
 vim.keymap.set('n', '<leader>q', ':q<CR>')
 vim.keymap.set('n', '<leader>ft', ':Ex<CR>')
+vim.keymap.set('n', '<C-d>', '<C-d>zz')
+vim.keymap.set('n', '<C-u>', '<C-u>zz')
 
 -- [[ Basic Autocommands ]]
 --  See `:help lua-guide-autocommands`
